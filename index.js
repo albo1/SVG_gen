@@ -24,7 +24,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'shape-color',
+        name: 'shapecolor',
         message: 'What color would you like your shape to be?',
     }
 ];
