@@ -1,0 +1,20 @@
+{
+    "name": "logo-maker-app",
+    "version": "1.0.0",
+    "description": "A logo maker using an SVG file.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js",
+      "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "none",
+    "dependencies": {
+      "inquirer": "^8.2.4",
+      "inquirer-maxlength-input-prompt": "^1.0.2"
+    },
+    "devDependencies": {
+      "jest": "^28.1.3"
+    }
+  }
