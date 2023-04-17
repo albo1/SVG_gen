@@ -5,7 +5,7 @@ const MaxLengthInputPrompt = require('inquirer-maxlengt-input-prompt');
 
 inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt);
 
-const questions = [ 
+const questions = [
     {
         type: 'maxlength-input',
         name: 'text',
@@ -29,4 +29,14 @@ const questions = [
     }
 ];
 
-// kk function to create svg?? 
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((data) => {
+            const createFile = makeShape(data);
+            fs.writeFile('./logo.svg', createFile, (err) =>
+                err ? console.log(err) : console.log('Successfully Generated logo.svg!'));
+        });
+};
+
+init();
