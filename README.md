@@ -1,5 +1,4 @@
 # SVG LOGO GENERATOR
-# Svg_gen
 
 ## Description 
 Much like a monogram I wanted to created an application that created a simple 3-letter logo.
