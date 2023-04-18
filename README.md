@@ -9,7 +9,7 @@ Just open the integrated terminal and start 'node index.js' and the CLI will pro
 ## Usage
 You can see the SVG logo you created populate by dragging the new file to the browser!
 
-Link to walk through: 
+Link to walk through: https://drive.google.com/file/d/1USKfZX6KJyGVCrX9MXJZIo0YJP5qsbf9/view
 
 ## Credits
 N/A
